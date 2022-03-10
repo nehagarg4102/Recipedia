@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+        <!-- Font Imports -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+        
+        <!-- Bootstrap Imports -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        
+        <link rel="stylesheet" href="../static/css/style.css"/>
+        
+        <!-- JavaScript Imports-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+      
+        <!-- Vue Import-->
+        <script src="../js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <!-- Vue-Gallery Imports-->
+        <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-helper.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-gallery.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/blueimp-gallery@2.27.0/js/blueimp-gallery-fullscreen.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/vue-gallery"></script>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/blueimp-gallery@2.27.0/css/blueimp-gallery.min.css">
+
+        <title>Recipedia</title>
+    </head>
+    <body>
+        <!-- Vue Application-->
+        <div id='app'>
+            <div class="banner">
+                <nav class="navbar navbar-expand-lg navbar-light" style ="background-color: white">
+                    <div class="container-fluid">
+                        <a href="#" class="nav-link">
+                            <img class="logo" src="../static/images/logo.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link px-3" aria-current="page" href="#" data-toggle="tooltip" data-placement="bottom">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-3" href="#" data-toggle="tooltip" data-placement="bottom">Liked</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class = "collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class = "navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link px-3" href ="landing.html">Sign up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-3" href ="landing.html">Log out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>
